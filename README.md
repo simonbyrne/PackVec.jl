@@ -40,7 +40,7 @@ Mutable objects can be directly defined in the macro
 @unpack!(vec, a::Real, b=zeros(2), c=zeros(2,2), d=UpperTriangular(4,4))
 ```
 
-[StaticArrays.jl](https://github.com/JuliaArrays/StaticArrays.jl) are also supported:
+[StaticArrays.jl](https://github.com/JuliaArrays/StaticArrays.jl) is also supported:
 ```
 @unpack!(vec, a::SVector{4}, b::SMatrix{3,3})
 ```
